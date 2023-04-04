@@ -76,23 +76,34 @@ font-size: 24px;
 
 
 /* about styling */
-.about-section h1 {
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 }
 
-.about-section h2{
+.content-container h2{
 font-size: 18px;
 font-family: var(--default-font-family);
-line-height: 1;
 }
 
-.about-section{
+.content-container{
     padding: 160px 20px;
 }
 
-.about-section-content{
+.content{
     margin: 30px;
+}
+
+/* work styling */
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+    /* margin: 20px 0 0; */
+}
+
+.content p{
+    font-size: 14px;
 }
 
 
@@ -112,13 +123,11 @@ line-height: 1;
     }
 
     .hero{
-    background-color: var(--background-color);
-    text-align: center;
     padding: 80px 20px;
 }
 
 /* about styling */
-.about-section{
+.content{
     text-align: center;
     padding: 0;
 }
