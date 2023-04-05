@@ -37,10 +37,25 @@
 </head>
 
 <body>
-    <a href="/index.html">Homepage</a>
-    <a href="/about.html">About page</a>
-    <a href="/work.html">Work page</a>
-    <a href="/contact.html">Contact page</a>
+    <!-- nav bar -->
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+
+            <a href="/index.html" title="Homepage">
+                <img src="/images/logo.png" class="logo d-none d-md-block" alt="Esthers Logo">
+                <img src="/images/small-logo.png" class="logo d-block d-md-none" alt="Esthers logo">
+            </a>
+
+            <ul>
+                <li><a href="/" title=" Esther's Homepage"> Home </a></li>
+                <li class="active"><a href="/about.html" title="About Esther"> About </a></li>
+                <li><a href="/work.html" title="Esther's Work"> Work </a></li>
+                <li><a href="/contact.html" title="Contact Esther"> Contact </a></li>
+            </ul>
+
+        </nav>
+
+    </div>
 
     <div class="container content-container">
         <div class="row">
@@ -60,16 +75,59 @@
                         good for keep focus.
                     </p>
 
-                    <a href="" class="btn btn-branding">See my Projects</a>
+                    <a href="/work.html" class="btn btn-branding">See my Projects</a>
                 </div>
 
             </div>
 
             <div class="col-lg-6">
-                <img src="/images/me.png" alt="My head shot" class="img-fluid">
+                <img src="/images/modern me.svg" alt="My head shot" class="img-fluid">
             </div>
 
         </div>
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>
+                        Work Inquiry
+                    </h3>
+                    <p class="text-muted">
+                        Lets work together
+                    </p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding mt-1" title="contact Esther">Contact me</a>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:esther.omouwho@gmail.com" class="email-link"
+                    title="email Esther">esther.omouwho@gmail.com</a>
+            </div>
+
+            <div class="social-links d-flex justify-content-center mb-5">
+
+                <a href="www.instagram.com/omouwho" target="_blank" title="Instagram Profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="www.github.com/omouwho" target="_blank" title="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="www.twitter.com/omouwho" target="_blank" title="Twitter Profile">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </div>
+            <p class="text-center mt-5">
+                This project was coded by Esther Omouwho and it is open sourced on
+                <a href="https://github.com/Omouwho/esthers-portfolio-project" target="_blank">Github 💻</a>
+            </p>
+        </footer>
 
     </div>
 

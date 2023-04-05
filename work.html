@@ -5,93 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8260b1bf46.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/portfolio.png" type="image/icon">
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>My Works</title>
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <!-- nav bar -->
+    <div class="container">
+        <nav class="d-flex justify-content-between">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <a href="/index.html" title="Homepage">
+                <img src="/images/logo.png" class="logo d-none d-md-block" alt="Esthers Logo">
+                <img src="/images/small-logo.png" class="logo d-block d-md-none" alt="Esthers logo">
+            </a>
 
-        <!-- bootstrap css -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+            <ul>
+                <li><a href="/" title=" Esther's Homepage"> Home </a></li>
+                <li><a href="/about.html" title="About Esther"> About </a></li>
+                <li class="active"><a href="/work.html" title="Esther's Work"> Work </a></li>
+                <li><a href="/contact.html" title="Contact Esther"> Contact </a></li>
+            </ul>
 
+        </nav>
 
-        <!-- google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-            rel="stylesheet">
+    </div>
 
-        <!-- font awesome -->
-        <script src="https://kit.fontawesome.com/8260b1bf46.js" crossorigin="anonymous"></script>
+    <div class="content-container container">
 
-        <!-- favicon -->
-        <link rel="shortcut icon" href="/images/portfolio.png" type="image/icon">
+        <div class="content">
+            <h1 class="mb-5">
+                Take a look at what I've been working on!
+            </h1>
 
-        <!-- bootstrap js -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-            crossorigin="anonymous"></script>
-
-        <!-- custom css -->
-        <link rel="stylesheet" href="/styles/style.css">
-        <title>Esther's About Page</title>
-    </head>
-
-
-    <body>
-        <a href="/index.html">Homepage</a>
-        <a href="/about.html">About page</a>
-        <a href="/work.html">Work page</a>
-        <a href="/contact.html">Contact page</a>
-
-        <div class="content-container container">
-
-            <div class="content">
-                <h1 class="mb-5">
-                    Take a look at what I've been working on!
-                </h1>
-
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <img src="/images/yogurt.png" class="img-fluid mb-3 rounded border shadow" alt="Yogurt Project">
-                        <h3 class="text-center m-0">Yogurt Project</h3>
-                        <p class="text-center text-muted">Built with HTML and CSS</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/images/weather.png" class="img-fluid mb-3 rounded border shadow"
-                            alt="Weather Project">
-                        <h3 class="text-center m-0">Weather App</h3>
-                        <p class="text-center text-muted">Built with HTML and CSS and JavaScript</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/images/dictionary.png" class="img-fluid mb-3 rounded border shadow"
-                            alt="Dictionary Project">
-                        <h3 class="text-center m-0">Dictionary App</h3>
-                        <p class="text-center text-muted">Built with HTML and React</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="/images/translation.png" class="img-fluid mb-3 rounded border shadow"
-                            alt="Translation Project">
-                        <h3 class="text-center m-0">Translation Project</h3>
-                        <p class="text-center text-muted">Built with HTML and CSS and React</p>
-                    </div>
-
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="/images/yogurt.png" class="img-fluid mb-3 rounded border shadow" alt="Yogurt Project">
+                    <h3 class="text-center m-0">Yogurt Project</h3>
+                    <p class="text-center text-muted">Built with HTML and CSS</p>
                 </div>
-            </div>
+                <div class="col-md-6">
+                    <img src="/images/weather.png" class="img-fluid mb-3 rounded border shadow" alt="Weather Project">
+                    <h3 class="text-center m-0">Weather App</h3>
+                    <p class="text-center text-muted">Built with HTML and CSS and JavaScript</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/dictionary.png" class="img-fluid mb-3 rounded border shadow"
+                        alt="Dictionary Project">
+                    <h3 class="text-center m-0">Dictionary App</h3>
+                    <p class="text-center text-muted">Built with HTML and React</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/translation.png" class="img-fluid mb-3 rounded border shadow"
+                        alt="Translation Project">
+                    <h3 class="text-center m-0">Translation Project</h3>
+                    <p class="text-center text-muted">Built with HTML and CSS and React</p>
+                </div>
 
+            </div>
         </div>
 
-    </body>
+        <!-- Footer -->
+        <footer>
 
-    </html>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>
+                        Work Inquiry
+                    </h3>
+                    <p class="text-muted">
+                        Lets work together
+                    </p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding mt-1" title="contact Esther">Contact me</a>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:esther.omouwho@gmail.com" class="email-link"
+                    title="email Esther">esther.omouwho@gmail.com</a>
+            </div>
+
+            <div class="social-links d-flex justify-content-center mb-5">
+
+                <a href="www.instagram.com/omouwho" target="_blank" title="Instagram Profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="www.github.com/omouwho" target="_blank" title="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="www.twitter.com/omouwho" target="_blank" title="Twitter Profile">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </div>
+            <p class="text-center mt-5">
+                This project was coded by Esther Omouwho and it is open sourced on
+                <a href="https://github.com/Omouwho/esthers-portfolio-project" target="_blank">Github 💻</a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
 </body>
 
 </html>
