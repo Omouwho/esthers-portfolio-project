@@ -252,14 +252,15 @@ footer .contact-box p{
 /* work styling */
 .img-fluid {
     max-width: 100%;
-    height: 50%;
+    height: 70%;
     margin: 0 auto;
     display: flex;
 }
 
-/* .hobby-project{
-    height: 50%;
-} */
+.hobby-project{
+    height: 30%;
+    
+}
 /* nav styling */
 nav a{
     font-size: 12px;
